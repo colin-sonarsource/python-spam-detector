@@ -72,7 +72,7 @@ def spam_detector():
     if request.method == 'POST':
         message = request.form['message']
         
-        # Check if the message contains any spam wogit rds
+        # Check if the message contains any spam words
         c.execute("SELECT word FROM spam_words")
         spam_words = [row[0] for row in c.fetchall()]
         
