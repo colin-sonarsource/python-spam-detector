@@ -42,4 +42,4 @@ http://127.0.0.1:5000/
 
 ## Usage
 - Enter a message in the input field and click "Check" to see if the message might be spam.
-- The application will display all spam messages and related spam messages based on the input.
+- The application will display all spam messages and related spam messages based on the input. 
